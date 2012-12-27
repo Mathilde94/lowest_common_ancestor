@@ -13,3 +13,19 @@ For this, we will need a Class Tree to :
 
 To determine the higher node, we can do it linearly (but too long), or preparing a heap (RMQ method), and then make a query for every couple.
 
+To execute test the program: 
+   - g++ lca.cpp -o lca
+   - ./lca < input.txt 
+   - Output of the program: 
+        A      B    Ancestor
+        11     4    5  
+        8      15   10
+        21     15   1
+        8      7    10
+        4      15   10   
+        3      8    5
+        11     8    5
+        11     0    10
+        5      0    10
+        10     21   10
+
